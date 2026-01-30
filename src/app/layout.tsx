@@ -1,12 +1,11 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
+import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'JobFeed - Never Miss a LinkedIn Opportunity Again',
-  description: 'JobFeed automatically scans your LinkedIn feed and detects freelance opportunities and jobs from your network.',
+export const metadata = {
+  title: 'JobFeed - LinkedIn Job Opportunities',
+  description: 'Agrégateur intelligent d\'opportunités LinkedIn',
 }
 
 export default function RootLayout({
@@ -15,8 +14,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="fr">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
+      <body className={inter.className}>
+        {children}
+      </body>
     </html>
   )
 }
