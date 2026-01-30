@@ -156,6 +156,8 @@ Vérifiez que toutes les dépendances sont dans `package.json`
 - [ ] Build réussi
 - [ ] Dashboard accessible à /dashboard
 - [ ] Données Supabase affichées
+Version: 2.0 - Dashboard amélioré déployé le 30 janvier 2026
+- [ ] 
 
 ---
 
