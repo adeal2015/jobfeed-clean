@@ -165,3 +165,4 @@ Version: 2.0 - Dashboard amélioré déployé le 30 janvier 2026
 **Version** : 1.0.0
 
 Version: 2.0 - Dashboard amélioré - Déployé le 02/02/2026
+Version: 2.0 - Dashboard amélioré - Déployé le 03/02/2026 à 19h
